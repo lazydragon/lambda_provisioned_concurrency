@@ -1,0 +1,7 @@
+README.md
+setup.py
+without_provisioned_concurrency/without_provisioned_concurrency.egg-info/PKG-INFO
+without_provisioned_concurrency/without_provisioned_concurrency.egg-info/SOURCES.txt
+without_provisioned_concurrency/without_provisioned_concurrency.egg-info/dependency_links.txt
+without_provisioned_concurrency/without_provisioned_concurrency.egg-info/requires.txt
+without_provisioned_concurrency/without_provisioned_concurrency.egg-info/top_level.txt

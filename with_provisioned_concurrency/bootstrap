@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# create python virtualenv
+virtualenv env
+source env/bin/activate
+
+# install dependencies
+pip3 install -r requirements.txt
+
+# bootstrap cdk
+cdk bootstrap
+
+# deploy
+cdk deploy
