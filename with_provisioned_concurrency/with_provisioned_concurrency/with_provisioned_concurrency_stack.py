@@ -19,6 +19,7 @@ class WithProvisionedConcurrencyStack(core.Stack):
             code=_lambda.Code.asset('lambda'),
             handler='backend.handler',
             tracing=_lambda.Tracing.ACTIVE,
+            timeout=core.Duration.seconds(30),
         )
         
         latest_version = backend.add_version(str(time.time()))

@@ -6,7 +6,7 @@ aws application-autoscaling register-scalable-target \
     --scalable-dimension lambda:function:ProvisionedConcurrency \
     --resource-id function:with-provisioned-concurre-BackendWithProvisionedCo-1O0WDZFYOX1TX:latest \
     --min-capacity 0 \
-    --max-capacity 100
+    --max-capacity 800
     
 
 aws application-autoscaling put-scaling-policy --service-namespace lambda \

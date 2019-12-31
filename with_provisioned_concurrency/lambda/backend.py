@@ -1,4 +1,7 @@
 import json
+import time
+
+time.sleep(9)
 
 def handler(event, context):
     print('request: {}'.format(json.dumps(event)))

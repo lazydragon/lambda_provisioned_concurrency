@@ -17,6 +17,7 @@ class WithoutProvisionedConcurrencyStack(core.Stack):
             code=_lambda.Code.asset('lambda'),
             handler='backend.handler',
             tracing=_lambda.Tracing.ACTIVE,
+            timeout=core.Duration.seconds(30),
         )
         
         apigw.LambdaRestApi(
